@@ -1,0 +1,175 @@
+/* Reset CSS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+Lam tu ngoai vao trong
+Lam tu tren xuong duoi 
+Tong quan den chi tiet
+*/
+
+/* 
+Position 
+Size
+Color
+Font
+*/
+#main {
+}
+
+#header {
+  height: 46px;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#nav {
+  display: inline-block;
+}
+
+#nav,
+.subnav {
+  list-style: none;
+}
+
+#nav > li {
+  display: inline-block;
+}
+
+#nav li {
+  position: relative;
+}
+
+#nav li:hover .subnav {
+  display: block;
+}
+
+#nav .subnav li:hover a,
+#nav > li:hover > a {
+  color: #000;
+  background-color: #ccc;
+}
+
+#nav > li > a {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#nav li a {
+  text-decoration: none;
+  line-height: 46px;
+  padding: 0 24px;
+  display: block;
+}
+#nav .subnav {
+  min-width: 160px;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  display: none;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0.3);
+}
+
+#nav .subnav a {
+  padding: 0 12px;
+  color: #000;
+  line-height: 38px;
+}
+
+#nav .nav-arrow-down {
+  font-size: 11px;
+}
+
+#header .search-button {
+  float: right;
+  line-height: 46px;
+  padding: 0 23px;
+}
+
+#header .search-button:hover {
+  cursor: pointer;
+  background-color: red;
+}
+
+#header .search-icon {
+  color: #fff;
+  height: 46px;
+}
+
+#slider {
+  margin-top: 46px;
+  padding-top: 50%;
+  background: url("/Project_f8_band/assets/img/slider/slider1.jpg") top center /
+    cover no-repeat;
+  position: relative;
+}
+
+#slider .text-content {
+  position: absolute;
+  bottom: 47px;
+  color: #fff;
+  /* Can giua  */
+  /* left: 50%;
+  transform: translateX(-50%); */
+  text-align: center;
+  width: 100%;
+}
+
+#slider .text-heading {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+#slider .text-decription {
+  margin-top: 30px;
+}
+
+#content {
+}
+
+#content .content-section {
+  padding: 64px 16px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#content .section-heading {
+  letter-spacing: 4px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#content .section-sub-heading {
+  margin: 15px 0;
+  font-size: 15px;
+  font-style: italic;
+  color: rgb(187, 187, 187);
+}
+
+#content .about-text {
+  font-size: 15px;
+  margin-top: 25px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+#content .section-heading,
+#content .section-sub-heading {
+  text-align: center;
+}
+
+#footer {
+}

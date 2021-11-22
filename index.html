@@ -10,6 +10,7 @@
       rel="stylesheet"
       href="./assets/fonts/themify-icons/themify-icons.css"
     />
+    <link rel="shortcut icon" href="#" />
   </head>
 
   <body>
@@ -55,7 +56,7 @@
       <div id="content">
         <!-- About Section -->
         <div class="content-section">
-          <h2 class="section-heading">THE BAND</h2>
+          <h2 class="section-heading section-theband">THE BAND</h2>
           <p class="section-sub-heading">We love music</p>
           <p class="about-text">
             We have created a fictional band website. Lorem ipsum dolor sit
@@ -71,19 +72,139 @@
             ea commodo consequat.
           </p>
         </div>
-
-        <!-- Tout Dates -->
-        <div class="content-section">
-          <h2 class="section-heading">TOUR DATES</h2>
-          <p class="section-sub-heading">Remember to book your tickets!</p>
+        <div class="members-list">
+          <div class="members-item">
+            <p class="members-name">Name</p>
+            <img
+              src="/assets/img/slider/member.jpg"
+              alt=""
+              class="member-img"
+            />
+          </div>
+          <div class="members-item">
+            <p class="members-name">Name</p>
+            <img
+              src="/assets/img/slider/member.jpg"
+              alt=""
+              class="member-img"
+            />
+          </div>
+          <div class="members-item">
+            <p class="members-name">Name</p>
+            <img
+              src="/assets/img/slider/member.jpg"
+              alt=""
+              class="member-img"
+            />
+          </div>
+          <div class="clear"></div>
         </div>
+      </div>
+      <!-- Tout Dates -->
+      <div class="all-tour">
+        <div id="content">
+          <div class="content-section">
+            <h2 class="section-heading">TOUR DATES</h2>
+            <p class="section-sub-heading">Remember to book your tickets!</p>
+            <ul class="header-tour">
+              <li class="content-header">
+                September
+                <span class="tag-content">Sold out</span>
+              </li>
+              <li class="content-header">
+                October
+                <span class="tag-content">Sold out</span>
+              </li>
+              <li class="content-header">
+                November
+                <span class="tag-content-special">3</span>
+              </li>
+            </ul>
 
-        <!-- Contact -->
+            <div class="all-img">
+              <!-- NEW YORK  -->
+              <div class="img-content">
+                <img
+                  src="./assets/img/tour/newyork.jpg"
+                  class="img-newyork"
+                  alt=""
+                />
+                <div class="content1-of-img">
+                  <p>
+                    <b>New York</b>
+                  </p>
+                  <p class="content2-of-img">Fri 27 Nov 2016</p>
+                  <p class="content3-of-img">
+                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                  </p>
+                  <button
+                    class="button"
+                    onclick="document.getElementById('ticketModal').style.display='block'"
+                  >
+                    Buy Tickets
+                  </button>
+                </div>
+              </div>
+              <!-- PARIS  -->
+              <div class="img-content">
+                <img
+                  src="./assets/img/tour/paris.jpg"
+                  class="img-newyork"
+                  alt=""
+                />
+                <div class="content1-of-img">
+                  <p>
+                    <b>Paris</b>
+                  </p>
+                  <p class="content2-of-img">Sat 28 Nov 2016</p>
+                  <p class="content3-of-img">
+                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                  </p>
+                  <button
+                    class="button"
+                    onclick="document.getElementById('ticketModal').style.display='block'"
+                  >
+                    Buy Tickets
+                  </button>
+                </div>
+              </div>
+              <!-- SAN FRAN  -->
+              <div class="img-content">
+                <img
+                  src="./assets/img/tour/sanfran.jpg"
+                  class="img-newyork"
+                  alt=""
+                />
+                <div class="content1-of-img">
+                  <p>
+                    <b>San Francisco</b>
+                  </p>
+                  <p class="content2-of-img">Sun 29 Nov 2016</p>
+                  <p class="content3-of-img">
+                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                  </p>
+                  <button
+                    class="button"
+                    onclick="document.getElementById('ticketModal').style.display='block'"
+                  >
+                    Buy Tickets
+                  </button>
+                </div>
+              </div>
+              <div class="clear"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact -->
+      <div id="content">
         <div class="content-section">
           <h2 class="section-heading">CONTACT</h2>
           <p class="section-sub-heading">Fan? Drop a note!</p>
         </div>
       </div>
+
       <div id="footer"></div>
     </div>
   </body>
